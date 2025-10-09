@@ -7,28 +7,26 @@ A.  Program Description/Scenario
     tasks. It serves as an easy way to record, check off, and delete
     daily tasks. It's meant for a single user who wants a quick and
     reliable tool without extra features like collaboration, categories,
-    or reminders. The system focuses only on basic task management and
-    provides simple API endpoints that other apps can use.
+    or reminders. 
 
 B.  Features/Use cases
 
--   The system will include only the basic features for managing tasks,
-    known as CRUD Create, Read, Update, and Delete. The Create Task
-    feature lets users add a new task by entering a simple title. Each
-    new task automatically gets a default status of "Pending." For
-    example, a user can quickly add a task like "Take pictures required
-    for CoWorld GT." The Read feature, or View All Tasks, allows users
-    to see all their tasks along with their current status, helping them
-    keep track of what still needs to be done. When a task is finished,
-    the Update Status feature lets the user change it from "Pending" to
-    "Complete". Lastly, the Delete Task feature allows users to
-    permanently remove tasks that are done or no longer needed, keeping
-    the list organized and up to date.
+-   The system will include only the essential features for managing categorized tasks, 
+    commonly known as CRUD - Create, Read, Update, and Delete. The Create Task feature allows
+    users to add a new task by providing a title and selecting a category, such as Personal, 
+    Work, or Urgent. Each new task is automatically assigned a default status of “Pending.” 
+    For instance, a user can quickly add a task like “Submit project report” under the Work 
+    category.The Read feature, or View All Tasks, displays all tasks along with their categories 
+    and current statuses, helping users easily track their progress across different areas. 
+    When a task is completed, the Update Status feature enables the user to mark it as “Complete,” 
+    which may show different behavior depending on its category. Finally, the Delete Task feature allows users 
+    to permanently remove tasks that are finished or no longer relevant, ensuring the to-do list remains organized 
+    and up to date.
+
 
 C.  How it will be implemented
 
 -   The program will be utilizing Java mainly as the preferred
     programming language, the plan is for the output to show up in the
     terminal first only for experimenting how it will look. However,
-    this is not entirely confirmed yet if this is how we want to
-    represent our project.
+    this is not entirely confirmed yet if this is how we want to represent our project.
