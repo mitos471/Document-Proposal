@@ -35,7 +35,18 @@ C.  How it will be implemented
     connect everything and show the tasks on the screen through JavaFX buttons and text fields. Tasks will be stored 
     in a list while the program is running. Optionally, the data can be saved in a text file so users won’t lose their 
     tasks after closing the app. Overall, this To-Do List will be a simple Java program with a clean JavaFX interface 
-    for managing daily tasks easily.
+    for managing daily tasks easily. 
+    Encapsulation: The Task class will keep its data (title, category, status) private and provide public getters and setters to protect the internal state.
+    Abstraction: Complex operations like file handling or task management will be hidden behind simple methods and a user-friendly JavaFX interface.
+    Inheritance: Subclasses such as PersonalTask and WorkTask will extend the Task class, reusing code while adding unique features.
+    Polymorphism: Methods like displayTask() will work differently depending on the type of task but will share the same interface.
+
+    Optionally, the data can be saved in a text file so users won’t lose their tasks after closing the app. 
+    Overall, this To-Do List will be a simple Java program with a clean JavaFX interface for managing daily tasks easily.
+
+
+
+
 
 
 
