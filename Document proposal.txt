@@ -27,7 +27,7 @@ B.  Features/Use cases
 
 C.  How it will be implemented
 
--    The program will utilize Java mainly as the preferred programming language, the plan is to make 
+-   The program will utilize Java mainly as the preferred programming language, the plan is to make 
     a UI using JavaFX to display the output of our program. The program will be made using Java as the main 
     language. It will use JavaFX to create a simple and easy to use interface where users can add, view, update, 
     and delete tasks. A Task class will store the details of each task like its title, category, and status. A Task 
@@ -36,5 +36,6 @@ C.  How it will be implemented
     in a list while the program is running. Optionally, the data can be saved in a text file so users won’t lose their 
     tasks after closing the app. Overall, this To-Do List will be a simple Java program with a clean JavaFX interface 
     for managing daily tasks easily.
+
 
 
