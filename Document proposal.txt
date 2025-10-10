@@ -3,30 +3,38 @@ TO-DO LIST
 
 A.  Program Description/Scenario
 
--   This project is a Simple To-Do List API made for managing personal
-    tasks. It serves as an easy way to record, check off, and delete
-    daily tasks. It's meant for a single user who wants a quick and
-    reliable tool without extra features like collaboration, categories,
-    or reminders. 
+-   This project is a Simple To-Do List API made for managing personal tasks. It serves as an easy 
+    way to record, check off, and delete daily tasks. It’s meant for a single user who wants a quick 
+    and reliable tool without extra features like collaboration, categories, or reminders. The system 
+    focuses only on basic task management and provides simple API endpoints that other apps can use.
+ 
 
 B.  Features/Use cases
 
--   The system will include only the essential features for managing categorized tasks, 
+-   The system will include only the essential features for managing categorized tasks,
     commonly known as CRUD - Create, Read, Update, and Delete. The Create Task feature allows
-    users to add a new task by providing a title and selecting a category, such as Personal, 
-    Work, or Urgent. Each new task is automatically assigned a default status of “Pending.” 
-    For instance, a user can quickly add a task like “Submit project report” under the Work 
-    category.The Read feature, or View All Tasks, displays all tasks along with their categories 
-    and current statuses, helping users easily track their progress across different areas. 
-    When a task is completed, the Update Status feature enables the user to mark it as “Complete,” 
-    which may show different behavior depending on its category. Finally, the Delete Task feature allows users 
-    to permanently remove tasks that are finished or no longer relevant, ensuring the to-do list remains organized 
-    and up to date.
+    users to add a new task by providing a title and selecting a category, such as Personal,
+    Work, or Urgent. Each new task is automatically assigned a default status of “Pending.”
+    For instance, a user can quickly add a task like “Submit project report” under the Work
+    category. The Read feature, or View All Tasks, displays all tasks along with their categories
+    and current statuses, helping users easily track their progress across different areas.
+    When a task is completed, the Update Status feature enables the user to mark it as “Complete,”
+    which may show different behavior depending on its category. Finally, the Delete Task feature 
+    allows users to permanently remove tasks that are finished or no longer relevant, ensuring the 
+    to-do list remains organized and up to date.
+
 
 
 C.  How it will be implemented
 
--   The program will be utilizing Java mainly as the preferred
-    programming language, the plan is for the output to show up in the
-    terminal first only for experimenting how it will look. However,
-    this is not entirely confirmed yet if this is how we want to represent our project.
+-    The program will utilize Java mainly as the preferred programming language, the plan is to make 
+    a UI using JavaFX to display the output of our program. The program will be made using Java as the main 
+    language. It will use JavaFX to create a simple and easy to use interface where users can add, view, update, 
+    and delete tasks. A Task class will store the details of each task like its title, category, and status. A Task 
+    Manager class will handle all tasks and perform actions such as adding or removing them. The Main App will 
+    connect everything and show the tasks on the screen through JavaFX buttons and text fields. Tasks will be stored 
+    in a list while the program is running. Optionally, the data can be saved in a text file so users won’t lose their 
+    tasks after closing the app. Overall, this To-Do List will be a simple Java program with a clean JavaFX interface 
+    for managing daily tasks easily.
+
+
